@@ -1,34 +1,16 @@
-<<<<<<< HEAD
-#ifndef SPRITE_H
-#define SPRITE_H
-#include "rectangle.h"
-
-class Sprite
-{
-public:
-    bool isDead();
-    Sprite();
-};
-
-#endif // SPRITE_H
-=======
 #pragma once
 
 #include <QImage>
 #include <QRect>
 
 class Sprite {
-
-  public:
+public:
     Sprite();
     ~Sprite();
+    virtual QRect getRect();
+    virtual QImage & getImage();
 
-  public:
-   virtual QRect getRect();
-   virtual QImage & getImage();
-
-  private:
+private:
     QImage image;
     QRect rect;
 };
->>>>>>> all docoments that i changed

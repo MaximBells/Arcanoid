@@ -4,12 +4,9 @@
 #include <QRect>
 #include <sprite.h>
 class Ball : public Sprite{
-
-  public:
+public:
     Ball();
     ~Ball();
-
-  public:
     void resetState();
     void autoMove();
     void setXDir(int);
@@ -19,7 +16,7 @@ class Ball : public Sprite{
     QRect getRect() override;
     QImage & getImage() override;
 
-  private:
+private:
     int xdir;
     int ydir;
     QImage image;

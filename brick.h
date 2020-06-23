@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-#ifndef BRICK_H
-#define BRICK_H
-#include "stationarysprite.h"
-
-class Brick: private StationarySprite
-{
-public:
-    Brick();
-};
-
-#endif // BRICK_H
-=======
 #pragma once
 
 #include <QImage>
@@ -18,21 +5,17 @@ public:
 #include <sprite.h>
 
 class Brick : public Sprite{
-
-  public:
+public:
     Brick(int, int);
     ~Brick();
-
-  public:
     bool isDestroyed();
     void setDestroyed(bool);
     QRect getRect() override;
     void setRect(QRect) ;
     QImage & getImage() override;
 
-  private:
+private:
     QImage image;
     QRect rect;
     bool destroyed;
 };
->>>>>>> all docoments that i changed
