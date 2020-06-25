@@ -3,7 +3,7 @@
 
 Brick::Brick(int x, int y) {
 
-  image.load("/Users/ruslan/Desktop/Our_Project_Game/build-breakout-Desktop_Qt_5_13_0_MinGW_32_bit-Debug/brick3.jpg");
+  image.load("/Users/ruslan/Desktop/ARCANOID)/build-breakout-Desktop_Qt_5_13_0_MinGW_32_bit-Debug/brick3.jpg");
   destroyed = false;
   rect = image.rect();
   rect.translate(x, y);

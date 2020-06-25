@@ -1,11 +1,11 @@
 #include <QApplication>
-#include "breakout.h"
+#include "match.h"
 
 int main(int argc, char *argv[]) {
 
   QApplication app(argc, argv);
 
-  Breakout window;
+  Match window;
 
   window.resize(300, 400);
   window.setWindowTitle("Breakout");

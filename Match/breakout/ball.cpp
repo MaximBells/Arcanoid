@@ -6,7 +6,7 @@ Ball::Ball() {
   xdir = 1;
   ydir = -1;
 
-  image.load("/Users/ruslan/Desktop/Our_Project_Game/build-breakout-Desktop_Qt_5_13_0_MinGW_32_bit-Debug/ball.png");
+  image.load("/Users/ruslan/Desktop/ARCANOID)/build-breakout-Desktop_Qt_5_13_0_MinGW_32_bit-Debug/ball.png");
 
   rect = image.rect();
   resetState();

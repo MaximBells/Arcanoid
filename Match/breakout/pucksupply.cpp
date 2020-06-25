@@ -5,7 +5,7 @@
 
 PuckSupply::PuckSupply(int x, int y) {
 
-  image.load("/Users/ruslan/Desktop/Our_Project_Game/build-breakout-Desktop_Qt_5_13_0_MinGW_32_bit-Debug/heart.jpg");
+  image.load("/Users/ruslan/Desktop/ARCANOID)/build-breakout-Desktop_Qt_5_13_0_MinGW_32_bit-Debug/heart.jpg");
   rect = image.rect();
   rect.translate(x, y);
 }

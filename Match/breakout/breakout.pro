@@ -19,14 +19,14 @@ SOURCES += \
     ball.cpp \
     brick.cpp \
     main.cpp \
-    breakout.cpp \
+    match.cpp \
     paddle.cpp \
     pucksupply.cpp \
     sprite.cpp
 HEADERS += \
     ball.h \
-    breakout.h \
     brick.h \
+    match.h \
     paddle.h \
     pucksupply.h \
     sprite.h

@@ -5,7 +5,7 @@
 Paddle::Paddle() {
 
   dx = 0;
-  image.load("/Users/ruslan/Desktop/Our_Project_Game/build-breakout-Desktop_Qt_5_13_0_MinGW_32_bit-Debug/paddle2.jpg");
+  image.load("/Users/ruslan/Desktop/ARCANOID)/build-breakout-Desktop_Qt_5_13_0_MinGW_32_bit-Debug/paddle.png");
 
   rect = image.rect();
   resetState();
